@@ -1,0 +1,88 @@
+The Ultra VIDC Enhancer provides support for up 
+to three extra clock signals to be added to an A300,
+A400, A400/1 or A3000 series Archimedes computer.
+
+This allows these Archimedes to match and surpass the 
+video output capabilities of the later A30x0, A4000 
+and A5000 computers if the third oscillator is fitted.
+
+The Sync on Green fix is also in place and this board
+can be used as a direct replacement for the Retro-Kit
+VIDC Enhancer board.
+
+==============================
+
+PL1 provides a SYNC on GREEN disconnect for 
+	A300,400 and 400/1 based Arcs 
+
+For the A300 and A400 series
+
+400/1 - always made
+3/400 - open/closed 
+
+For the A400/1 series
+
+400/1 - open/closed
+3/400 - always made
+
+For the A3000 series
+
+Both connections should be made if fitted in the riser configuration.
+
+==============================
+
+CN1 - Aux Power connector for non-riser configuration
+CN2 - Aux I/O - Controlling the selection of VIDC clock speed
+CN3 - VIDC Clock I/O - Input: 24MHz VIDC clock 
+		 - Output: 24, 25.175, 36.000MHz and custom clock speeds.
+
+==============================
+
+IC1 - 74ACT153N
+
+IC2 will either be a 74LS05 or SN7438 depending on 
+	the Archimedes being a 300/400 series or 
+	a 400/1 series.
+
+	For A3000's no riser or chip is required.
+
+==============================
+
+Custom oscillator - This can be an oscillator you're 
+	happy with for overclocking the VIDC at. 
+	If you do not wish to overclock the VIDC 
+	chip, use a 220R resistor in its place 
+	across pins 4 and 5 as a pull-down resistor.
+
+==============================
+	
+Parts List
+=============
+
+IC1	74ACT153N
+IC2	SN7438 or 74LS05 depending on the Archimedes to be fitted to.
+C1-4	100nF
+R1-3	68R 0.25W
+
+QG1	25.175MHz oscillator (half-can through hole)
+QG2	36.000MHz oscillator (half-can through hole) - a 40.000MHz oscillator may also be used but the VIDC chip will require cooling
+QG3	reserved for over clocking (half-can through hole custom oscillator) *
+
+* Alternatively, a 220R resistor can be fitted 
+	from 0v to the oscillator out connection as a pull-down
+
+CN1	(optional) Power input connector (required for A3000)
+CN2-3	90-deg headers
+
+PL 1	2x 2way header (not required for A3000)
+
+Sockets	
+=============
+
+1x 14-way DIL turned pin socket (not required for A3000)
+1x 16-way DIL turned pin socket (optional)
+
+2x 7-way round male header SIL pins (not required for A3000)
+
+
+
