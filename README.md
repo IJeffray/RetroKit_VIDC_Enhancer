@@ -46,10 +46,10 @@ The software to control the Ultra VIDC Enhancer is based on Andreas Barth's <a h
 
 For further information, you can visit the Retro-Kit [Ultra VIDC Enhancer page](http://www.retro-kit.co.uk/Ultra-VIDC-Enhancer/)
 
-(http://www.retro-kit.co.uk)
+[http://www.retro-kit.co.uk](http://www.retro-kit.co.uk)
 
-(Notes.txt)
+[Notes.txt](Notes.txt)
 
-(VIDC-Enhancer-manual-v2.pdf)
+[VIDC-Enhancer-manual-v2.pdf](VIDC-Enhancer-manual-v2.pdf)
 
-(VIDC-Enhancer-AutoVIDC.pdf)
+[VIDC-Enhancer-AutoVIDC.pdf](VIDC-Enhancer-AutoVIDC.pdf)
